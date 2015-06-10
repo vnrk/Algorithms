@@ -98,7 +98,7 @@ int rotated_binary_search(int A[], int N, int key) {
   return -1;
 }
 
-//linear way to find the pivot 
+//iterative way to find the pivot 
 int FindSortedArrayRotation(int A[], int N) {
   int L = 0;
   int R = N - 1;
