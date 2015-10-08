@@ -1,7 +1,6 @@
-
 #include <stdio.h>
 #include <string.h>
-
+//Simple pattern matching approach - linear search
 void search(char *pattern, char *txt) {
 	int n = strlen(txt);
 	int m = strlen(pattern);
