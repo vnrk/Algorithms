@@ -1,10 +1,3 @@
-/*
- * 		Naive_Pattern_Searching.c
- * 		TODO
- * 		Created on: 12:50:41 AM May 19, 2015
- * 		Author: Venkata 
- */
-
 
 #include <stdio.h>
 #include <string.h>
