@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//use a counter as a pointer to the number index
+
 void move(int *arr, int size) {
 	int i, count=0;
 	for (i = 0; i < size; ++i) {
