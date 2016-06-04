@@ -4,7 +4,7 @@
  * 		sort an array of 0's , 1's and 2's
  * 		Created on: May 4, 2014
  * 		Author: Venkata
-
+*/
 
 void swap(int *a, int *b)
 {
@@ -35,4 +35,3 @@ void _sort012()
 	for(i=0; i<sizeof(arr)/sizeof(int); i++)
 		printf("%d|", arr[i]);
 }
-*/

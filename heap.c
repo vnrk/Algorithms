@@ -4,7 +4,7 @@
  * 		heap data structure
  * 		Created on: May 28, 2014
  * 		Author: Venkata 
-
+*/
 
 struct heap {
 	int *arr;
@@ -24,4 +24,4 @@ struct heap * createHeap(int capacity, int heap_type) {
 void _heap(){
 	createHeap(5,5);
 }
-*/
+

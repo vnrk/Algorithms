@@ -1,5 +1,3 @@
-/*
-
 void seg(int *arr, int n){
 	int zeros = 0, swaps = 0, temp;
 	int l = 0, r = n - 1, i;
@@ -28,4 +26,4 @@ void _seg(){
 	int arr[] = {0, 1, 0, 0, 2, 5, 0, 0, 0, 2};
 	seg(arr, 10);
 }
-*/
+

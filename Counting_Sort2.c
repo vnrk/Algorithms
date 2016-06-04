@@ -1,4 +1,3 @@
-/*
 #include <stdio.h>
 #include <string.h>
 #define RANGE 255
@@ -50,4 +49,4 @@ void _counting_sort2()
 
     //printf("Sorted string is %s\n", str);
 }
-*/
+

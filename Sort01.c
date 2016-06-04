@@ -4,7 +4,7 @@
  * 		sorting an array of 0's and 1's
  * 		Created on: May 4, 2014
  * 		Author: Venkata
-
+*/
 
 
 void sort01(int *arr, int n)
@@ -33,4 +33,4 @@ void _sort01()
 	for(i=0; i<sizeof(arr)/sizeof(int); i++)
 		printf("%d|", arr[i]);
 }
-*/
+

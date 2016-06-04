@@ -5,7 +5,7 @@
  * 		drawback : it needs the lowest and the highest elements in the array
  * 		Created on: 10:32:05 PM May 4, 2014
  * 		Author: Venkata 
-
+*/
 
 void sortABC(int *arr, int l, int h, int n)
 {
@@ -33,6 +33,3 @@ void _sortABC()
 	for(i=0; i<sizeof(arr)/sizeof(int); i++)
 		printf("%d|", arr[i]);
 }
-
-
-*/

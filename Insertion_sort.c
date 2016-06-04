@@ -4,7 +4,7 @@
  * 		Created on: 6:58:44 PM Aug 11, 2014
  * 		Author: Venkata 
  */
-/*
+
 void insertion_sort(int *a, int n)
 {
 	int i, j, temp;
@@ -26,4 +26,4 @@ void _insertion_sort()
 	int arr[] = {1, -2, 4, 18, 9, 5, -3, 0};
 	insertion_sort(arr, 8);
 }
-*/
+

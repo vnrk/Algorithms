@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
-
+*/
 struct node
 {
     int data;
@@ -52,4 +52,3 @@ int _nthnode()
     printf("Element at index 10 is %d", GetNth(head, 6));
     return 0;
 }
-*/

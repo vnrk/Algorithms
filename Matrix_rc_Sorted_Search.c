@@ -5,7 +5,7 @@
  * 		the trick is to start from the top right corner
  * 		Created on: 4:14:42 PM May 5, 2014
  * 		Author: Venkata 
-
+*/
 
 
 void matrix_rc_sorted_search(int matrix[4][4], int r, int c, int key)
@@ -40,4 +40,4 @@ void _matrix_rc_sorted_search()
 	int key = 32;
 	matrix_rc_sorted_search(mat, 4, 4, key);
 }
-*/
+

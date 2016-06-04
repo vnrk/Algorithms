@@ -4,7 +4,7 @@
  * 		TODO
  * 		Created on: 4:30:20 PM May 7, 2014
  * 		Author: Venkata 
-
+*/
 
 struct node {
 	int data;
@@ -63,4 +63,3 @@ void _sort012_ll()
 	printf("\n");
 	print_list(head);
 }
-*/
