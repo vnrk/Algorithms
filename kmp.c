@@ -4,10 +4,19 @@
  * 		Created on: 10:28:44 PM May 21, 2015
  * 		Author: Venkata 
  */
-
+//the fialFunc is a table which indicates the longest proper 
+//prefix which is also a suffix
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+
+void display(int *arr, int size)
+{
+	int i;
+	for(i=0; i<size; i++)
+		printf("%d ", arr[i]);
+	printf("\n");
+}
 
 void computeFunc(char *pat, int patSize, int *failFunc)
 {
@@ -39,6 +48,7 @@ void kmp(char *text, char *pat)
 	int patSize = strlen(pat);
 	int *failFunc = (int *)malloc(sizeof(int) * patSize);
 	computeFunc(pat, patSize, failFunc);
+	display(failFunc, patSize);
 	int i=0,j=0;
 	while(i < textSize) {
 		if(pat[j] == text[i]) {
@@ -54,7 +64,7 @@ void kmp(char *text, char *pat)
 			}
 		}
 		if(j == patSize) {
-			printf("Found at %d", i-j);
+			printf("Found at %d\n", i-j);
 			j = failFunc[j-1];
 		}
 	}
@@ -64,8 +74,8 @@ void kmp(char *text, char *pat)
 
 int main()
 {
-	char *txt = "werhiuejkwhiuerhhiuerhkuhiuer";
-	char *pat = "hiuer";
+	char *txt = "iagdsaaaaabaabbjasbaaabaabjsjbabaaabaabbbsab";
+	char *pat = "aaabaab";
 	kmp(txt, pat);
 	return 0;
 }
