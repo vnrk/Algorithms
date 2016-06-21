@@ -41,7 +41,7 @@ struct node* mergeList(struct node* a, struct node* b){
 			tail->next = a;
 			break;
 		}
-		if(a->info <= b->info){
+		if(a->data <= b->data){
 			tail->next = a;
 			tail = tail->next;
 			a = a->next;
