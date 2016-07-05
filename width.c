@@ -42,6 +42,7 @@ struct node* newNode(int data);
 //	return maxW;
 //}
 
+//takes O(n)
 void getWidth(struct node *root, int *count, int level)
 {
 	if(root) {
