@@ -59,7 +59,7 @@ int diameterOptimized(struct node *root, int *height) {
 	rd = diameterOptimized(root->right, &rh);
 	*height = max(lh,rh) + 1;
 
-	return max(lh+rh+1, max(ld,rd));
+	return max(max(ld,rd), lh+rh+1);
 }
 
 int main(int argc, char **argv) {
