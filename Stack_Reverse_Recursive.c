@@ -117,7 +117,7 @@ int pop(struct sNode** top_ref)
 	}
 }
 
- Functrion to pront a linked list
+// Function to pront a linked list
 void print(struct sNode* top)
 {
 	printf("\n");
