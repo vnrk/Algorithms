@@ -39,7 +39,6 @@ void printList(struct Node *node)
 }
 
 struct Node* mergeList(struct Node* a, struct Node* b) {
-	printf("mergelist\n");
 	struct Node dummy;
 	struct Node* tail = &dummy;
 	while (true) {
