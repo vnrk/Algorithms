@@ -6,20 +6,19 @@ int createPalindrome(int input, bool isOdd)
 {
 	int n = input;
 	int palin = input;
-	int b = 10;
 	// checks if number of digits is odd or even
 	// if odd then neglect the last digit of input in
 	// finding reverse as in case of odd number of
 	// digits middle element occur once
 	if (isOdd)
-		n /= b;
+		n /= 10;
 
 	// Creates palindrome by just appending reverse
 	// of number to itself
 	while (n > 0)
 	{
-		palin = palin * b + (n % b);
-		n /= b;
+		palin = palin * 10 + (n % 10);
+		n /= 10;
 	}
 	return palin;
 }
