@@ -17,11 +17,12 @@ void sort01(int *arr, int n)
 			left++;
 		while(arr[right] == 1 && left < right)
 			right--;
-		if(left < right)
+		if(left < right) {
 			temp = arr[left];
 			arr[left] = arr[right];
 			arr[right] = temp;
 			left++; right--;
+		}
 	}
 }
 
