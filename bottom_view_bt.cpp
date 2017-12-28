@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
  
-// Tree node class
+
 struct Node
 {
     int data; //data of the node
@@ -18,7 +18,6 @@ struct Node
     }
 };
  
-// Method that prints the bottom view.
 void bottomView(Node *root)
 {
     if (root == NULL)
@@ -82,7 +81,6 @@ void bottomView(Node *root)
         cout << i->second << " ";
 }
  
-// Driver Code
 int main()
 {
     Node *root = new Node(20);
